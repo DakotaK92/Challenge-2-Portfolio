@@ -1,0 +1,234 @@
+*{ /* Keeps content centered to the page */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+/*------------------------------------------------------------------*/
+
+.header{
+  background-color: #2E368D;
+  height: 120px;
+  width: 100%;
+  padding: 15px;
+}
+
+.logo {
+  float: left;
+  padding-left: 50px;
+}
+
+.nav{
+  width: 50%;
+  float: right;
+  text-align: right;
+  padding-right: 50px;
+}
+
+ul {
+  padding: 30px 10px;
+  
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/*------------------------------------------------------------------*/
+
+.title-cards{
+  background-color: #2E368D;
+  width: 100%;
+}
+
+a { /*The "About", "Graphic Design", "Web Design" words*/
+  color: #fff;
+  font-size: 20pt;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  width: 100%;
+  text-align: center;
+}
+
+.about {
+  display: inline-block;
+  height: 200px;
+  width: 33%;
+  background-color: #2E368D;
+  color: #ffffff;
+  background-image: url(../images/Slide1.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
+  position: relative;
+}
+
+.about:hover{
+  background-blend-mode: normal;
+}
+
+.websites {
+  display: inline-block;
+  height: 200px;
+  width: 33%;
+  background-color: #2E368D;
+  color: #ffffff;
+  background-image: url(../images/Slide2.JPG);
+  background-size: cover;
+  background-blend-mode: overlay;
+  position: relative;
+}
+
+.websites:hover{
+  background-blend-mode: normal;
+}
+
+.graphic-designs {
+  display: inline-block;
+  height: 200px;
+  width: 33%;
+  background-color: #2E368D;
+  color: #ffffff;
+  background-image: url(../images/Slide3.JPG);
+  background-size: cover;
+  background-blend-mode: overlay;
+  position: relative;
+}
+
+.graphic-designs:hover{
+  background-blend-mode: normal;
+}
+
+.graphic-designs img {
+  max-height: 200px;
+}
+
+.websites img {
+  max-height: 100px;
+}
+
+.about img{
+  max-height: 100px
+}
+
+.about h2 {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.graphic-designs h2 {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+.websites h2 {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+
+/*------------------------------------------------------------------*/
+
+.slides{
+  margin: 0 auto;
+  position: relative;
+  background: #000000;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide{
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: sliding 12s infinite;
+}
+
+.slide-img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.slide-two{
+  animation-delay: 4s;
+}
+
+.slide-three{
+  animation-delay: 8s;
+}
+
+@keyframes sliding{
+  0%{ opacity: 0; }
+  10%{ opacity: 1; }
+  20%{ opacity: 1; transform: scale(1.05);}
+  30%{ opacity: 0; transform: scale(1.05);}
+  100%{ opacity: 0; }
+}
+
+/*------------------------------------------------------------------*/
+
+.lg-container{
+  width: 100%;
+  height: 100%;
+  padding: 300px 50px;
+  background-color: #888;
+  color: #fff;
+}
+
+h3{
+  font-size: larger;
+}
+
+p{
+  font-size: larger;
+}
+
+.lg-picture{
+  float: right;
+}
+
+/*------------------------------------------------------------------*/
+
+.footer{
+  color: #888;
+  text-align: center;
+  width: 100%;
+}
+
+/*------------------------------------------------------------------*/
+
+/* XS */
+@media (max-width: 600px) {
+  
+}
+/* S */
+@media (min-width: 600px) {
+ 
+}
+/* M */
+@media (min-width: 768px) {
+
+}
+/* L */
+@media (min-width: 992px) {
+ 
+}
+/* XL */
+@media (min-width: 1223px) {
+  .slides{
+    width: 100%;
+  }
+}
