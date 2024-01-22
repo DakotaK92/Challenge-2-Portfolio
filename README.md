@@ -1,9 +1,12 @@
 # Challenge-2
 
-With this challenge I designed a webpage that I wanted to use for a future webpage that will display my design work.
+With this challenge I needed to design and deploy a portfolio site.
 
-I wanted to make a section of my page with an "About Me" section. There I can uplaod a short description of myself. With a link to a resume for a potential job.
+I made a slide show with things that I've learned and built. And I also put a photo of myself as a way to introduce myself.
 
-Secondly, I wanted to make a section for my "Graphic Design" work. I wanted this page to showcase my skills as a graphic designer while uploading new designs I make in the future.
+Then I made some click-able objects to make the veiwer have an easy way to access my projects.
 
-Thirdly, I wanted to make a section of my page as a  "Web Designer". There I can show case past pages I have make and show case code that I used and it fuctionality.
+I then decided I wanted to have a section to have an introduction to myself and what skills I have.
+
+
+# Deployed at:
